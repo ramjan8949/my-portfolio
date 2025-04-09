@@ -53,7 +53,7 @@ const About = () => {
           <div className="w-full md:w-3/5">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">Frontend Developer with a Passion for Creative Solutions</h3>
             <p className="text-gray-600 mb-6">
-              Hello! I'm Ramjan Khan, a frontend developer with 1 year of experience at FixItGoServices.com. 
+              Hello! I'm Ramjan Khan, a frontend developer with 1 year of experience at Tantramaza Technology. 
               I specialize in creating responsive, user-friendly web applications that combine functionality with delightful user experiences.
             </p>
             <p className="text-gray-600 mb-8">
@@ -71,13 +71,13 @@ const About = () => {
               <div className="bg-gray-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
                 <Briefcase className="text-orange-500 mb-2" size={24} />
                 <h4 className="font-bold text-gray-800 mb-1">Company</h4>
-                <p className="text-gray-600">FixItGoServices</p>
+                <p className="text-gray-600">Tantramaza Technology</p>
               </div>
               
               <div className="bg-gray-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
                 <Award className="text-orange-500 mb-2" size={24} />
                 <h4 className="font-bold text-gray-800 mb-1">Projects</h4>
-                <p className="text-gray-600">15+ Completed</p>
+                <p className="text-gray-600">5+ Completed</p>
               </div>
             </div>
           </div>

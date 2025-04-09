@@ -27,7 +27,7 @@ const Hero = () => {
 
   return (
     <section id="home" className="min-h-screen pt-20 flex items-center relative overflow-hidden">
-      <div className="container mx-auto px-4 py-16 md:py-32">
+      <div className="container mx-auto px-4 py-16 md:py-14">
         <div className="flex flex-col md:flex-row items-center">
           <div ref={heroRef} className="w-full md:w-1/2 opacity-0">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 text-gray-800">
@@ -52,7 +52,7 @@ const Hero = () => {
               <img 
                 src="https://th.bing.com/th/id/R.377e208c7244a80df5983fd6efe71276?rik=Q8xlwlyzrFSVaw&riu=http%3a%2f%2fnick.mtvnimages.com%2fnick%2fproperties%2foggy-and-the-cockroaches%2fcharacter-web-desktop-oggy-oggy.png%3fquality%3d0.75&ehk=bMa0oxxhF4pn5mj6S41qrr7ko4f8iIQqB9yhJvcDcRQ%3d&risl=&pid=ImgRaw&r=0" 
                 alt="Doraemon" 
-                className="absolute -bottom-40 right-0 md:block hidden w-44  animate-bounce z-20"
+                className="absolute -bottom-10 right-4 hidden md:block w-32 animate-bounce z-10"
               />
             </div>
           </div>
@@ -60,7 +60,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full absolute top-0 left-0 filter blur-3xl opacity-20 animate-pulse"></div>
               <img 
-                src="/Assets/heroImg.png" 
+                src="/images/heroImg-min.png" 
                 alt="Coding illustration" 
                 className="relative z-10 rounded-lg drop-shadow-2xl animate-float max-w-full h-auto"
               />

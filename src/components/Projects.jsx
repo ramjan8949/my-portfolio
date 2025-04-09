@@ -32,7 +32,7 @@ const Projects = () => {
       id: 1,
       title: 'Fixitgoservices',
       description: 'A responsive service booking platform for home services with real-time tracking and payment integration.',
-      image: '/src/fixitgo.png',
+      image: '/images/fixitgo.png',
       category: 'react',
       technologies: ['React js', 'Tailwind CSS', 'Firebase','Node.js'],
       liveLink: 'https://fixitgoservices.com/',
@@ -42,7 +42,7 @@ const Projects = () => {
       id: 2,
       title: 'vibeecart ',
       description: 'VibeeCart is a modern e-commerce website designed for fashion lovers. It offers a wide collection of trendy and stylish clothing for men, women, and kids, ensuring you find the perfect outfit for any occasion.',
-      image: '/src/vibeecart.png',
+      image: '/images/vibeecart.png',
       category: 'react',
       technologies: ['React js', 'Tailwind CSS', 'Firebase'],
       liveLink: 'https://vibeecart.netlify.app/',
@@ -52,7 +52,7 @@ const Projects = () => {
       id: 3,
       title: 'DailyDrive',
       description: 'DailyyDrive is a simple and efficient task management website that helps you stay organized and productive. Whether you need to manage daily tasks, work projects, or personal goals, DailyyDrive makes it easy to add, track, and complete your tasks effortlessly.',
-      image: '/src/dailyydrive.png',
+      image: '/images/dailyydrive.png',
       category: 'javascript',
       technologies: ['HTML' , 'CSS' , 'Javascript'],
       liveLink: 'https://dailyydrive.netlify.app/',
@@ -62,11 +62,11 @@ const Projects = () => {
       id: 4,
       title: 'my Portfolio',
       description: 'make the portfolio using react js and tailwind css to atractive design and responsive ui.',
-      image: '/src/portfolio.png',
+      image: '/images/portfolio.png',
       category: 'react',
       technologies: ['React js', 'Tailwind CSS'],
       liveLink: '/',
-      githubLink: '#',
+      githubLink: 'https://github.com/ramjan8949/my-portfolio',
     },
   ];
 
@@ -115,28 +115,29 @@ const Projects = () => {
                   alt={project.title} 
                   className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <div className="p-6 w-full">
-                    <div className="flex gap-4 mb-4">
-                      <a 
-                        href={project.liveLink} 
-                        className="bg-white text-gray-800 p-2 rounded-full hover:bg-orange-500 hover:text-white transition-colors duration-300"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <ExternalLink size={18} />
-                      </a>
-                      <a 
-                        href={project.githubLink} 
-                        className="bg-white text-gray-800 p-2 rounded-full hover:bg-orange-500 hover:text-white transition-colors duration-300"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Github size={18} />
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+  <div className="p-6 w-full">
+    <div className="flex gap-4 mb-4">
+      <a 
+        href={project.liveLink} 
+        className="bg-white text-gray-800 p-2 rounded-full hover:bg-orange-500 hover:text-white transition-colors duration-300"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <ExternalLink size={18} />
+      </a>
+      <a 
+        href={project.githubLink} 
+        className="bg-white text-gray-800 p-2 rounded-full hover:bg-orange-500 hover:text-white transition-colors duration-300"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Github size={18} />
+      </a>
+    </div>
+  </div>
+</div>
+
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-800 mb-2">{project.title}</h3>
